@@ -1,21 +1,12 @@
 <?php
-
 //inputからもってきたものを取得＆変数に代入
-// $name = $_POST['name'];
-// $mail = $_POST['mail'];
-// $age = $_POST['age'];
-
 $ct = $_POST['ct'];
 $date = $_POST['date'];
 $duration = $_POST['duration'];
-// $with = $_POST['with'];
 
 //日付取得
 // $time = date("Y-m-d H:i:s");
-
 //inputからもってきたものを取得＆変数に代入
-// $str = $time .'  '. $name .'   '.$mail.' '.$age; 
-// $str =  $date .'   '.$country.' '.$duration.' '.$with; 
 $str =  $ct.','.$duration.','.$date; 
 
 // ファイルに書き込み
